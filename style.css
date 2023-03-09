@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.left img{
+    width: 53px;
+    height: 36px;
+    padding-inline: 50px;
+    cursor: pointer;
+}
+.container{
+    padding: 0 0vw;
+    
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+}
+nav ul li{
+    list-style: none;
+    padding:0 12px ;
+    cursor: pointer;
+    
+}
+ul li:hover{
+    text-decoration-color: palevioletred ;
+}
+.section1{
+    background-color: white;
+    
+}
+.search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.homeimg{
+    width: 100%;
+    cursor: pointer;
+}
+.itemimg{
+    width: 11vw;
+    height: auto;
+    cursor: pointer;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    background-color: #FAFBFC;
+    box-shadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.desktop-gyanContainer {
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+    border-top: 1px solid #eaeaec;
+    margin: 15px 0 0;
+    text-align: left;
+    text-align: left;
+    padding-inline: 161px;
+}
+.desktop-gyanContainer h1, .desktop-gyanContainer h2, .desktop-gyanContainer h3 {
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #94969f;
+}
+.gap{
+    margin-top: 65px;
+}
+@media only screen and  (max-width:730px) {
+    height: ;
+}
